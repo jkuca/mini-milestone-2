@@ -22,38 +22,6 @@ public class Storage {
                 amountOfAntimatter += amount;
             }
     }
-//
-//    public void getMaterialFromStorage(MaterialType material, int amount){
-//        switch (material){
-//            case COAL:
-//                amountOfCoal -= amount;
-//                break;
-//            case URANIUM:
-//                amountOfUranium -= amount;
-//                break;
-//            case HELIUM:
-//                amountOfHelium -= amount;
-//            case ANTIMATTER:
-//                amountOfAntimatter -= amount;
-//        }
-//    }    public boolean checkIfIsEnoughMaterial (MaterialType material, int amount){
-//        switch (material){
-//            case COAL:
-//               if(amountOfCoal < amount)
-//                return false;
-//            case URANIUM:
-//               if (amountOfUranium < amount)
-//                   System.out.println(amountOfUranium);
-//            case HELIUM:
-//                if (amountOfHelium < amount)
-//                return false;
-//            case ANTIMATTER:
-//               if (amountOfAntimatter < amount)
-//                return false;
-//        }
-//        return true;
-//    }
-
 }
 
 

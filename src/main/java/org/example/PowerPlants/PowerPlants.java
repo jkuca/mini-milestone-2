@@ -17,11 +17,6 @@ public class PowerPlants {
     public int getUnitsConsumedPerWeek() {
         return unitsConsumedPerWeek;
     }
-
-    public MaterialType getPowerPlantConsumeThisMaterial() {
-        return powerPlantConsumeThisMaterial;
-    }
-
     public int getUnitsProducedPerWeek() {
         return unitsProducedPerWeek;
     }

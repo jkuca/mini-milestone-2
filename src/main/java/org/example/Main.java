@@ -67,7 +67,7 @@ public class Main {
         }
 
         if(howMuchEnergyConsumersNeed < howMuchPlantsProducedEnergy){
-        System.out.println("Yes, they can. They still have " + Math.abs(howMuchPlantsProducedEnergy - howMuchEnergyConsumersNeed) +  " units of power.");
+        System.out.println("Yes, they can. They still have " + (howMuchPlantsProducedEnergy - howMuchEnergyConsumersNeed) +  " units of power.");
         }
         else {
             System.out.println("No, they can't. They need " + Math.abs(howMuchPlantsProducedEnergy - howMuchEnergyConsumersNeed) + " units of power.");
