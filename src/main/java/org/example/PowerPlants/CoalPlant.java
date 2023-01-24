@@ -1,6 +1,6 @@
 package org.example.PowerPlants;
 
-import org.example.MaterialType;
+import org.example.Materials.MaterialType;
 
 public class CoalPlant extends PowerPlants{
 

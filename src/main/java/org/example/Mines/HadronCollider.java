@@ -1,6 +1,6 @@
 package org.example.Mines;
 
-import org.example.MaterialType;
+import org.example.Materials.MaterialType;
 
 public class HadronCollider extends Mines {
 

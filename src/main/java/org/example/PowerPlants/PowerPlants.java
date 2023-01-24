@@ -1,6 +1,6 @@
 package org.example.PowerPlants;
 
-import org.example.MaterialType;
+import org.example.Materials.MaterialType;
 
 public class PowerPlants {
 
@@ -18,8 +18,13 @@ public class PowerPlants {
         return unitsConsumedPerWeek;
     }
 
+    public MaterialType getPowerPlantConsumeThisMaterial() {
+        return powerPlantConsumeThisMaterial;
+    }
+
     public int getUnitsProducedPerWeek() {
         return unitsProducedPerWeek;
     }
-
 }
+
+
