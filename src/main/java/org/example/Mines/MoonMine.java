@@ -1,5 +1,7 @@
 package org.example.Mines;
 
+import org.example.MaterialType;
+
 public class MoonMine extends Mines {
 
     public MoonMine(){
